@@ -37,5 +37,5 @@ jobs:
                    sudo docker pull shiv413/cd
                    sudo docker stop web-app || true
                    sudo docker rm web-app || true
-                   sudo docker run -d --name web-app -p 3000:3000 shiv413/cd
+                   sudo docker run -d --name web-app -p 5000:5000 shiv413/cd
 
